@@ -84,12 +84,12 @@ sudo apt-get install make
 Now you can install the guest additions in Ubuntu, if you don't do this you will get an error.  
 
 After you install the guest additions in Ubuntu and reboot, you need to install these using the terminal:
-sudo apt-get install php-dev
-sudo apt-get install php php-xdebug
-sudo apt-get install git
-sudo apt-install php-cgi
-sudo apt-get install composer
-sudo snap install phpstorm --classic
-sudo snap install heroku --classic
+1. sudo apt-get install php-dev
+2. sudo apt-get install php php-xdebug
+3. sudo apt-get install git
+4. sudo apt-install php-cgi
+5. sudo apt-get install composer
+6. sudo snap install phpstorm --classic
+7. sudo snap install heroku --classic
 
 
