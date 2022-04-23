@@ -63,4 +63,33 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # FinalProject
-# FinalProject
+Setting up development environment:
+You need to do the following:
+
+1.  Install Virtualbox
+
+2. Create a VM and install Ubuntu
+
+3.  Setup ubuntu
+
+4.  Install PHPstorm
+
+5.  Configure PHPstorm and the Heroku example project.
+
+After installing Ubuntu, use the terminal in Ubuntu to install  these programs:
+
+sudo apt-get install gcc
+sudo apt-get install make
+
+Now you can install the guest additions in Ubuntu, if you don't do this you will get an error.  
+
+After you install the guest additions in Ubuntu and reboot, you need to install these using the terminal:
+sudo apt-get install php-dev
+sudo apt-get install php php-xdebug
+sudo apt-get install git
+sudo apt-install php-cgi
+sudo apt-get install composer
+sudo snap install phpstorm --classic
+sudo snap install heroku --classic
+
+
